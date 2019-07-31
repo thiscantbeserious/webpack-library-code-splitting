@@ -4,16 +4,16 @@ module.exports = {
 	entry: {
 		utils: "./src/utils",
 		model: "./src/model",
-    componentLoader: "./src/componentLoader"
+    		componentLoader: "./src/componentLoader"
 	},
 	output: {
 		path: path.join(__dirname, "bin"),
-    filename: '[name].js',
+    		filename: '[name].js',
 		libraryTarget: 'system',
 	},
 	optimization: {
 		runtimeChunk: {
-    	 	name: 'runtime',
+    	 		name: 'runtime',
 		},
 		//https://webpack.js.org/plugins/split-chunks-plugin/
 		splitChunks: {
