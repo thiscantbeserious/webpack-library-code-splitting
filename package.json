@@ -1,0 +1,33 @@
+{
+  "name": "webpack-library-code-splitting",
+  "version": "1.0.0",
+  "description": "An example of how to author multipart-libraries with code-splitting using webpack and SystemJS",
+  "scripts": {
+    "build": "webpack",
+    "start": "start http://localhost:1234/ & gulp devServer"
+  },
+  "keywords": [
+    "webpack",
+    "webpack-library",
+    "bundling",
+    "library"
+  ],
+  "author": "ssa",
+  "license": "none",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/helper-module-transforms": "^7.2.2",
+    "@babel/plugin-proposal-export-namespace-from": "^7.2.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/plugin-transform-strict-mode": "^7.2.0",
+    "@babel/preset-env": "^7.4.3",
+    "lodash": "^4.17.11",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6",
+    "gulp": "4.0.2",
+    "gulp-connect": "5.7.0",
+    "systemjs": "5.0.0"
+  }
+}
